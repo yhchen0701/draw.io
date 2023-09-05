@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T12:25:20.017Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="7iN6NHHYgG00hC7MhEgf" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T12:29:03.706Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="zq5VGm2x_5J62Tzo5_fc" version="21.6.8" type="github">
   <diagram name="第 1 页" id="roPZ449s8YMuSNZIOXLy">
-    <mxGraphModel dx="1379" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1379" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,8 +64,26 @@
         <mxCell id="3g8yhhHNEZKHd-pQMrlk-20" value="K-V" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="370" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="3g8yhhHNEZKHd-pQMrlk-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3g8yhhHNEZKHd-pQMrlk-22" target="3g8yhhHNEZKHd-pQMrlk-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="400" />
+              <mxPoint x="370" y="470" />
+              <mxPoint x="500" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3g8yhhHNEZKHd-pQMrlk-22" value="K：索引列的值&lt;br&gt;V：文件名+offset+长度" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="410" y="370" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3g8yhhHNEZKHd-pQMrlk-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3g8yhhHNEZKHd-pQMrlk-24" target="3g8yhhHNEZKHd-pQMrlk-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3g8yhhHNEZKHd-pQMrlk-24" value="K：索引列的值&lt;br&gt;V：行记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="440" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3g8yhhHNEZKHd-pQMrlk-26" value="数据跟索引必须放在一起" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
